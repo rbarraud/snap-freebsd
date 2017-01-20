@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# $FreeBSD: releng/11.0/etc/rc.d/sshd 303770 2016-08-05 15:32:35Z des $
+#
+
+# PROVIDE: snap 
+# REQUIRE: LOGIN FILESYSTEMS
+# KEYWORD: shutdown
+
+/usr/local/bin/snapd -t 0 -c 2 -m 8 &

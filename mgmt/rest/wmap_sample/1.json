@@ -1,0 +1,21 @@
+{
+    "collect": {
+        "metrics": {
+            "/intel/mock/foo": {}
+        },
+        "config": {
+	    "/intel/mock/foo": {
+		"password": "testval"
+            }
+	},
+        "process": [],
+        "publish": [
+            {
+                "plugin_name": "mock-file",
+                "config": {
+                    "file": "/tmp/rest.test"
+                }
+            }
+        ]
+    }
+}

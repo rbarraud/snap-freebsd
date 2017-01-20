@@ -1,0 +1,14 @@
+{
+    "collect": {
+        "metrics": {
+            "/intel/mock/foo": {"version": 2}
+        },
+        "config": {
+	    "/intel/mock/foo": {
+		"password": "testval"
+            }
+	},
+        "process": [],
+        "publish": []
+    }
+}
